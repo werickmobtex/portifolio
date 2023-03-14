@@ -6,87 +6,150 @@
 
 body {
   background: #22212C;
-  width: 1440px;
-  height: 1767px;
-  position: relative;
+  /* width: 1440px;
+  height: 1767px; */
+  /* position: relative; */
 }
 
 
-/*   padding-top: 30px;
-  padding-left: 100px; */
-
- img {
-  background: url(./assets/wer.png) none;
-  border: 2px solid rgba(77, 10, 162, 0.89);
-  border-radius: 55%;
-  margin-top: 30px;
-  margin-left: 100px;
-}
-
-
+/*PROFILES*/
 .profile {
+/*   display: flex;
+  justify-content: center; */
   width:  348px;
   height: 292px;
   margin-top: 2.5rem;
   margin-left: 2.5rem;
-  position: absolute;
   background: #302F3D; 
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  border: 1px solid blue;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.profile h4 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #837E9F;
+}
+
+p {
+  font-weight: 400;
+  color: #837E9F;
+  font-style: italic;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 
-  h1 {
-  padding-top: 210px; 
-  padding-left: 60px ;
-  align-items: center;
+
+/*redução de códigos */
+
+ /* 
+  h4 {
+  text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
   position: absolute;
   font-size: 23px;
   color: #837E9F;
   font-weight: 700;
-}
+}  */
 
- p {
+/*   padding-top: 180px;  */
+  /* padding-left: 60px ; */
+  /* align-items: center; */
+
+/* p {
   font-style: italic;
   font-weight: 300;
-  padding-top: 230px;
-  padding-left: 129px ;
+  padding-top: 220px;
   align-items: center;
   position: absolute;
   font-family: 'Merriweather Sans', sans-serif;
   color: #837E9F;
-} 
+}  */
 
+  /* padding-left: 129px ; */
 
+/*////////////////////////////////////////////////////////////// */
+
+/*LINKS*/
 #links {
-  border: 1px solid red;
-  width:  340px;
-  height: 250px;
-  margin-top: 362px;
-  margin-left: 40px;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  width:  348px;
+  height: 220px;
+  margin-top: 2.9rem;
+  margin-left: 2.5rem;
   background: #302F3D; 
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  /*  margin-left: 40px; */
+  /*  position: absolute; */
+  /* border: 1px solid red; */
 }
 
-  li {
-  font-family: 'Merriweather Sans', sans-serif;
+ #link ul li  {
   font-weight: 400;
-  padding-bottom: 20px;
   color: #837E9F;
   list-style: none;
-  text-align: left;
-  /* background-image: url(./assets/map-pin.png); */
+  display: flex;
+ border: 1px solid aqua;
+  width: 24px;
+  height: 24px;
+  }
+
   
+
+
+  /*TECNOLOGIAS*/
+
+  .tecnologias {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 348px;
+  height: 130px;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  background: #302F3D; 
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+ /*text-align: center; */
+ /*display: flex;
+  justify-content: center; */
   }
-  ul {
-    padding-left: 64px;
-    padding-top: 20px;
-    /* background-color: yellow; */
+
+.tecnologias h2 {
+  padding-top: 15px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+  color: #837E9F;
   }
+
+button {
+  margin-top: 10px;
+  padding: 4px 10px;
+  background: #CB92B1;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(196, 4, 255);
+  border: none;
+  }
+
+  #btns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+
 
 
 
